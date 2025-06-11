@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Melbourne",
+    "date": "Started 15/3 – 2021",
+    "members": 640,
+    "desc": "Surfers around Melbourne looking for surf mates.",
+    "img": "assets/pics/melbourne.png"
+  },
+  {
+    "name": "Auckland",
+    "date": "Started 15/4 – 2025",
+    "members": 120,
+    "desc": "Participants to Auckland Cup.",
+    "img": "assets/pics/auckland.png"
+  },
+  {
+    "name": "Honolulu",
+    "date": "Started 11/9 – 2023",
+    "members": 201,
+    "desc": "Beginner course.",
+    "img": "assets/pics/honolulu.png"
+  },
+  {
+    "name": "Santa Cruz",
+    "date": "Started 2/6 – 2022",
+    "members": 340,
+    "desc": "Santa Cruz surf club and local meetups.",
+    "img": "assets/pics/santacruz.png"
+  },
+  {
+    "name": "Byron Bay",
+    "date": "Started 8/8 – 2020",
+    "members": 410,
+    "desc": "Byron Bay surfers sharing tips and waves.",
+    "img": "assets/pics/byronbay.png"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Bondi Beach",
+    "summary": "Sydney’s iconic surf beach, famous for its consistent waves and golden sands.",
+    "lat": -33.8908,
+    "lng": 151.2743
+  },
+  {
+    "name": "Mundaka",
+    "summary": "Legendary Basque river mouth with world-class lefts.",
+    "lat": 43.4036,
+    "lng": -2.6966
+  },
+  {
+    "name": "Jeffreys Bay",
+    "summary": "South Africa’s most famous right-hand point break, renowned for its long, fast walls.",
+    "lat": -34.0500,
+    "lng": 24.9170
+  },
+  {
+    "name": "Manu Bay",
+    "summary": "New Zealand’s legendary left-hand point break, famous for its long rides.",
+    "lat": -37.8170,
+    "lng": 174.7630
+  },
+  {
+    "name": "Pipeline",
+    "summary": "The Banzai Pipeline is Hawaii’s most famous and dangerous wave, known for its perfect barrels.",
+    "lat": 21.6644,
+    "lng": -158.0517
+  },
+  {
+    "name": "Teahupo o",
+    "summary": "Tahiti’s Teahupo'o is world-renowned for its heavy, glassy barrels and thick reef break.",
+    "lat": -17.8489,
+    "lng": -149.2663
+  },
+  {
+    "name": "Snapper Rocks",
+    "summary": "Australia’s Gold Coast gem, famous for its long, fast right-handers and the Superbank.",
+    "lat": -28.1644,
+    "lng": 153.5520
+  },
+  {
+    "name": "Hossegor",
+    "summary": "France’s surfing capital, known for its powerful beach breaks and world-class competitions.",
+    "lat": 43.6650,
+    "lng": -1.4380
+  },
+  {
+    "name": "Trestles",
+    "summary": "Southern California’s premier high-performance wave, popular with pros and locals alike.",
+    "lat": 33.3841,
+    "lng": -117.5942
+  },
+  {
+    "name": "Uluwatu",
+    "summary": "Bali’s legendary left, set beneath dramatic cliffs, offering long rides and stunning sunsets.",
+    "lat": -8.8296,
+    "lng": 115.0840
+  },
+  {
+    "name": "Supertubos",
+    "summary": "Portugal’s Supertubos is famed for its heavy, hollow beach break barrels.",
+    "lat": 39.3556,
+    "lng": -9.3811
+  },
+  {
+    "name": "Rincon",
+    "summary": "California’s ‘Queen of the Coast’, offering long, peeling right-hand point break waves.",
+    "lat": 34.3731,
+    "lng": -119.4442
+  },
+  {
+    "name": "Waimea Bay",
+    "summary": "Oahu’s historic big wave spot, home to legendary surf contests and massive winter swells.",
+    "lat": 21.6406,
+    "lng": -158.0650
+  },
+  {
+    "name": "Cloudbreak",
+    "summary": "Fiji’s Cloudbreak is a powerful reef pass, delivering long, barreling lefts over shallow coral.",
+    "lat": -17.8765,
+    "lng": 177.1836
+  },
+  {
+    "name": "Praia da Joaquina",
+    "summary": "Brazil’s Joaquina Beach is famous for its consistent waves and vibrant surf culture.",
+    "lat": -27.6261,
+    "lng": -48.4367
+  }
+]

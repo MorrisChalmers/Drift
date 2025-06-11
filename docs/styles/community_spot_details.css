@@ -1,0 +1,203 @@
+/* Styles specific to the community spot details page. */
+
+.spot-details-container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(54,170,160,0.10), 0 1.5px 8px rgba(0,0,0,0.04);
+  padding: 32px 24px;
+  text-align: center;
+  animation: fadeIn 0.7s;
+}
+.spot-details-img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 12px rgba(54,170,160,0.13);
+}
+.spot-details-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.2rem;
+  color: #36AAA0;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+.spot-details-meta {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+.spot-details-desc {
+  font-size: 1.15rem;
+  color: #222;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+.spot-details-badge {
+  display: inline-block;
+  background: #36AAA0;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 1rem;
+  margin: 0 6px 12px 6px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 1px 4px rgba(54,170,160,0.13);
+}
+.spot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 24px;
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  padding: 0 12px;
+}
+.spot-hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 48px auto 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 32px rgba(54,170,160,0.10), 0 2px 12px rgba(0,0,0,0.04);
+  padding: 48px 36px 36px 36px;
+  animation: fadeIn 0.7s;
+}
+.spot-hero-img {
+  width: 380px;
+  max-width: 45vw;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(54,170,160,0.13);
+  object-fit: cover;
+}
+.spot-hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.spot-hero-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.8rem;
+  color: #36AAA0;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.spot-hero-meta {
+  margin-bottom: 18px;
+}
+.spot-hero-desc {
+  font-size: 1.25rem;
+  color: #222;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+.spot-longdesc-section {
+  max-width: 900px;
+  margin: 36px auto 0 auto;
+  background: #f7fafc;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 8px rgba(54,170,160,0.06);
+}
+.spot-longdesc-section h2 {
+  color: #36AAA0;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+.spot-details-longdesc {
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.7;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .spot-hero-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 8vw 24px 8vw;
+  }
+  .spot-hero-img {
+    width: 100%;
+    max-width: 90vw;
+    margin-bottom: 24px;
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+.join-community-form {
+  max-width: 900px;
+  margin: 36px auto 0 auto;
+  background: #f7fafc;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 8px rgba(54,170,160,0.06);
+  padding: 32px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.join-community-form h2 {
+  font-family: 'Pacifico', cursive;
+  color: #36AAA0;
+  margin-bottom: 12px;
+  text-align: -left;
+  font-size: 2rem;
+}
+
+.join-community-form label {
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.join-community-form input[type="text"],
+.join-community-form input[type="email"] {
+  padding: 10px 12px;
+  border: 1.5px solid #36AAA0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.join-community-form input[type="text"]:focus,
+.join-community-form input[type="email"]:focus {
+  border-color: #4fd1c5;
+}
+
+.join-community-form button[type="submit"] {
+  background: linear-gradient(90deg, #36AAA0 0%, #4fd1c5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.join-community-form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #4fd1c5 0%, #36AAA0 100%);
+}
+
+@media (max-width: 700px) {
+  .bottom-bar {
+    font-size: 1rem;
+    padding: 16px 0 12px 0;
+  }
+}
+

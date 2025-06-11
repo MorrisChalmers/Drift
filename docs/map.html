@@ -1,0 +1,30 @@
+<!-- Interactive map displaying all surf spots. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Surf Spots Map - Drift Surfing</title>
+  <link rel="stylesheet" href="styles/map.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+  </script>
+  <h1 class="map-title">Surf Spots Around the Globe</h1>
+  <main class="map-container">
+    <div id="map"></div>
+  </main>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="backend/map.js"></script>
+  <footer class="bottom-bar">
+  <span class="bottom-quote">"The best surfer out there is the one having the most fun." – Phil Edwards</span>
+</footer>
+</body>
+</html>

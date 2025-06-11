@@ -1,0 +1,33 @@
+<!-- Shows details for a selected community surf spot and allows users to join the community. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Community Spot Details</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/community_spot_details.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+  </script>
+  <main class="main-content" id="community-spot-details"></main>
+  <script src="backend/community_spot_details.js"></script>
+      <form class="join-community-form" action="#" method="post">
+      <h2>Join the Community</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Join</button>
+    </form>
+  <footer class="bottom-bar">
+  <span class="bottom-quote">"The best surfer out there is the one having the most fun." – Phil Edwards</span>
+</footer>
+</body>
+</html>

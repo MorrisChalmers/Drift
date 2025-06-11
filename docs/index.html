@@ -1,0 +1,38 @@
+<!-- Homepage: highlights top surf spots and links to other sections. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Drift Surfing</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+  </script>
+
+  <main class="main-content">
+    <div class="hero-banner">
+      <a href="inspiration.html" style="text-decoration:none;">
+        <div class="hero-text">
+          What is the best spot for today’s adventure?
+        </div>
+      </a>
+    </div>
+    <div class="section-title">
+      The top surf spots of the world right now
+    </div>
+    <div id="spot-stats-table"></div>
+  </main>
+  <script src="backend/home_page.js"></script>
+  <footer class="bottom-bar">
+  <span class="bottom-quote">"The best surfer out there is the one having the most fun." – Phil Edwards</span>
+</footer>
+</body>
+</html>

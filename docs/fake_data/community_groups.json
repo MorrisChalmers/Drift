@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Melbourne",
+    "long_desc": "The Melbourne Surf Community is a vibrant group of surfers ranging from beginners to seasoned pros. We organize regular meetups at local beaches, share surf reports, and help each other improve. Whether you’re looking for a surf buddy, want to join a weekend trip, or just want to talk boards and waves, you’ll find a warm welcome here. Our group values inclusivity, ocean safety, and respect for the environment. Join us for sunrise sessions, BBQs, and surf movie nights!"
+  },
+  {
+    "name": "Auckland",
+    "long_desc": "Auckland Cup Participants is a group dedicated to those training for and competing in the annual Auckland Cup. We share training tips, organize practice heats, and support each other on and off the water. New members are always welcome, whether you’re aiming for the podium or just want to improve your skills. Expect regular updates on event dates, local surf conditions, and group socials."
+  },
+  {
+    "name": "Honolulu",
+    "long_desc": "Our Honolulu Beginner Course is perfect for those just starting out. We offer lessons, safety briefings, and plenty of encouragement. The group is led by experienced instructors and friendly locals who love introducing new surfers to the sport. Join us for gentle waves, fun challenges, and a supportive atmosphere."
+  },
+  {
+    "name": "Santa Cruz",
+    "long_desc": "Santa Cruz Surf Club is all about community and stoke. We host weekly meetups, surf competitions, and beach cleanups. Our members range from groms to legends, and everyone is passionate about sharing the waves and protecting our coastline. If you love good vibes, great surf, and making new friends, this is your crew."
+  },
+  {
+    "name": "Byron Bay",
+    "long_desc": "Byron Bay Surfers is a laid-back group that loves sharing tips, waves, and stories. We organize dawn patrols, sunset sessions, and occasional road trips up and down the coast. Respect for the ocean and each other is at the heart of our group. All are welcome, from locals to travelers passing through."
+  }
+]

@@ -1,0 +1,133 @@
+/* Styles for the surf spot details page. */
+
+.main-content {
+  width: 98%;
+  max-width: 1200px;
+  margin: 32px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.spot-details-content {
+  width: 98%;
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.spot-header-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#spot-title {
+  font-family: 'Pacifico', cursive;
+  color: #36AAA0;
+  font-size: 2.6rem;
+  align-items: center;
+  margin: 100;
+}
+
+.spot-title-section {
+  text-align: center;
+  margin: 48px 0 32px 0;
+}
+
+.spot-title-pacifico {
+  font-family: 'Pacifico', cursive;
+  color: #36AAA0;
+  font-size: 3.2rem;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.03em;
+}
+
+.spot-title-underline {
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #36AAA0 60%, #f7b267 100%);
+  border-radius: 3px;
+  margin: 0 auto 18px auto;
+}
+
+.spot-summary {
+  font-size: 1.2rem;
+  color: #444;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: 0.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background: #f7faf9; /* Light green background like other boxes */
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(54,170,160,0.08);
+  padding: 24px 28px;
+}
+
+.spot-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  justify-content: center;      /* Center the grid horizontally */
+  max-width: 950px;             /* Set a max width for the grid */
+  width: 100%;
+  margin: 0 auto;               /* Center the grid in its parent */
+}
+
+.spot-detail-card {
+  background: #6bb3ad;
+  color: #fff;
+  font-size: 2.2rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 320px;
+  box-shadow: 0 4px 18px rgba(54, 170, 160, 0.12);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  padding: 16px;
+  grid-row: 1 / 2;
+}
+
+.spot-detail-info {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  background: #fff;
+  color: #36AAA0;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(54, 170, 160, 0.10);
+  padding: 16px;
+}
+
+.spot-detail-block {
+  background: #f7faf9;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(54,170,160,0.08);
+  padding: 24px 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  min-height: 120px;            /* Ensure all blocks have the same minimum height */
+}
+
+.spot-detail-block h2 {
+  color: #36AAA0;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}

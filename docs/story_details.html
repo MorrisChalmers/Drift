@@ -1,0 +1,35 @@
+<!-- Displays the full content of a selected inspirational surf story. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Story | Drift Surfing</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/stories.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+  </script>
+
+  <div class="main-content" style="max-width:900px;margin:40px auto 0 auto;">
+    <div id="story-banner" class="story-banner"></div>
+    <h1 id="story-title" class="story-title-pacifico"></h1>
+    <div class="story-divider"></div>
+    <div id="story-content" class="story-content"></div>
+    <div id="story-author" class="story-author"></div>
+  </div>
+
+  <script src="backend/stories.js"></script>
+  <footer class="bottom-bar">
+  <span class="bottom-quote">"The best surfer out there is the one having the most fun." – Phil Edwards</span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!-- Shows inspirational surf stories and links to full story details. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Inspirations | Drift Surfing</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/inspiration_cards.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+</head>
+<body class="inspiration-body">
+  <nav id="navbar"></nav>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+  </script>
+
+  <div class="inspiration-cards">
+    <a href="story_details.html?story=1" style="text-decoration:none;">
+      <div class="inspiration-card" style="background-image: url('assets/pics/brazil.jpg');">
+        <div class="inspiration-text">
+          Jeremy’s adventure<br>at the coast of Brazil
+        </div>
+      </div>
+    </a>
+    <a href="story_details.html?story=2" style="text-decoration:none;">
+      <div class="inspiration-card" style="background-image: url('assets/pics/costarica.jpg');">
+        <div class="inspiration-text">
+          Alice’s discoveries in<br>the heart of Costa Rica
+        </div>
+      </div>
+    </a>
+    <a href="story_details.html?story=3" style="text-decoration:none;">
+      <div class="inspiration-card" style="background-image: url('assets/pics/haiti.jpg');">
+        <div class="inspiration-text">
+          Cole’s journey<br>through the waves of Haiti
+        </div>
+      </div>
+    </a>
+  </div>
+  <footer class="bottom-bar">
+  <span class="bottom-quote">"The best surfer out there is the one having the most fun." – Phil Edwards</span>
+</footer>
+</body>
+</html>
