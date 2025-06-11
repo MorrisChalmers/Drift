@@ -21,13 +21,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   document.getElementById('spot-title').textContent = spot.name;
   document.getElementById('spot-summary').textContent = spot.summary || '';
 
-  // Show location and flag image if available
-  if (spot.location && spot.img) {
-    document.getElementById('spot-location').innerHTML =
-      `${spot.location} <img src="${spot.img}" alt="${spot.name} image" style="height:24px;vertical-align:middle;margin-left:8px;border-radius:4px;">`;
-  } else {
-    document.getElementById('spot-location').textContent = spot.location || '';
-  }
+  // Show location and flag image
+  document.getElementById('spot-location').innerHTML =
+    `${spot.location} <img src="${spot.img}" alt="${spot.name} image" style="height:24px;vertical-align:middle;margin-left:8px;border-radius:4px;">`;
 
   // Fill in other spot details
   document.getElementById('spot-recommendation').textContent = spot.recommendation || '';
