@@ -2,7 +2,7 @@
   {
     "name": "Bondi Beach",
     "location": "Sydney, Australia",
-    "img": "assets/Icons/australia.png",
+    "img": "assets/icons/australia.png",
     "summary": "Sydney’s iconic surf beach, famous for its consistent waves, vibrant atmosphere, and golden sands. Great for all levels and always buzzing with energy.",
     "swell_hourly": [1.1, 1.3, 1.2, 1.4, 1.2, 1.0, 0.9],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -21,7 +21,7 @@
   {
     "name": "Mundaka",
     "location": "Mundaka, Spain",
-    "img": "assets/Icons/spain.png",
+    "img": "assets/icons/spain.png",
     "summary": "Legendary Basque river mouth with world-class lefts. Advanced surfers flock here for epic barrels and a unique European surf culture. The town itself is charming, with cobblestone streets and a vibrant local scene.",
     "swell_hourly": [1.3, 1.5, 1.7, 1.6, 1.4, 1.2, 1.0],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -40,7 +40,7 @@
   {
     "name": "Jeffreys Bay",
     "location": "Jeffreys Bay, South Africa",
-    "img": "assets/Icons/southafrica.png",
+    "img": "assets/icons/southafrica.png",
     "summary": "South Africa’s most famous right-hand point break, renowned for its long, fast walls and perfect barrels. A must-surf for any serious wave rider. The town is a hub for surf culture and wildlife enthusiasts.",
     "swell_hourly": [1.8, 2.0, 2.2, 2.1, 1.9, 1.7, 1.5],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -59,7 +59,7 @@
   {
     "name": "Manu Bay",
     "location": "Raglan, New Zealand",
-    "img": "assets/Icons/newzealand.png",
+    "img": "assets/icons/newzealand.png",
     "summary": "New Zealand’s legendary left-hand point break, famous for its long rides and stunning scenery. A classic destination for surfers seeking adventure. The surrounding area is lush and full of hiking trails.",
     "swell_hourly": [1.2, 1.4, 1.6, 1.5, 1.3, 1.1, 1.0],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -78,7 +78,7 @@
   {
     "name": "Pipeline",
     "location": "Oahu, Hawaii, USA",
-    "img": "assets/Icons/usa.png",
+    "img": "assets/icons/usa.png",
     "summary": "The Banzai Pipeline is Hawaii’s most famous and dangerous wave, known for its perfect barrels. The beach is iconic in surf culture and hosts major competitions every winter.",
     "swell_hourly": [2.5, 2.8, 3.0, 2.7, 2.6, 2.4, 2.2],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -97,7 +97,7 @@
   {
     "name": "Teahupo o",
     "location": "Tahiti, French Polynesia",
-    "img": "assets/Icons/france.png",
+    "img": "assets/icons/france.png",
     "summary": "Tahiti’s Teahupo'o is world-renowned for its heavy, glassy barrels and thick reef break. The wave is both beautiful and dangerous, drawing elite surfers from around the globe.",
     "swell_hourly": [2.8, 3.0, 3.2, 3.1, 2.9, 2.7, 2.5],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -116,7 +116,7 @@
   {
     "name": "Snapper Rocks",
     "location": "Gold Coast, Australia",
-    "img": "assets/Icons/australia.png",
+    "img": "assets/icons/australia.png",
     "summary": "Australia’s Gold Coast gem, famous for its long, fast right-handers and the Superbank. The area is vibrant and full of surf culture, with plenty of activities for visitors.",
     "swell_hourly": [1.5, 1.7, 1.9, 1.8, 1.6, 1.4, 1.2],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -135,7 +135,7 @@
   {
     "name": "Hossegor",
     "location": "Hossegor, France",
-    "img": "assets/Icons/france.png",
+    "img": "assets/icons/france.png",
     "summary": "France’s surfing capital, known for its powerful beach breaks and world-class competitions. The town is lively, especially during the summer and contest season.",
     "swell_hourly": [1.8, 2.0, 2.2, 2.1, 1.9, 1.7, 1.5],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -154,7 +154,7 @@
   {
     "name": "Trestles",
     "location": "California, USA",
-    "img": "assets/Icons/usa.png",
+    "img": "assets/icons/usa.png",
     "summary": "Southern California’s premier high-performance wave, popular with pros and locals alike. The area is surrounded by natural beauty and is a favorite for surf photographers.",
     "swell_hourly": [1.2, 1.4, 1.6, 1.5, 1.3, 1.1, 1.0],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -173,7 +173,7 @@
   {
     "name": "Uluwatu",
     "location": "Bali, Indonesia",
-    "img": "assets/Icons/indonesia.png",
+    "img": "assets/icons/indonesia.png",
     "summary": "Bali’s legendary left, set beneath dramatic cliffs, offering long rides and stunning sunsets. The area is rich in culture and offers a unique surf experience.",
     "swell_hourly": [1.7, 1.9, 2.1, 2.0, 1.8, 1.6, 1.4],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -192,7 +192,7 @@
   {
     "name": "Supertubos",
     "location": "Peniche, Portugal",
-    "img": "assets/Icons/portugal.png",
+    "img": "assets/icons/portugal.png",
     "summary": "Portugal’s Supertubos is famed for its heavy, hollow beach break barrels. The area is a hotspot for surf contests and attracts surfers from all over Europe.",
     "swell_hourly": [2.0, 2.2, 2.4, 2.3, 2.1, 1.9, 1.7],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -211,7 +211,7 @@
   {
     "name": "Rincon",
     "location": "California, USA",
-    "img": "assets/Icons/usa.png",
+    "img": "assets/icons/usa.png",
     "summary": "California’s ‘Queen of the Coast’, offering long, peeling right-hand point break waves. The area is scenic and popular with both surfers and beachgoers.",
     "swell_hourly": [1.3, 1.5, 1.7, 1.6, 1.4, 1.2, 1.0],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -230,7 +230,7 @@
   {
     "name": "Waimea Bay",
     "location": "Oahu, Hawaii, USA",
-    "img": "assets/Icons/usa.png",
+    "img": "assets/icons/usa.png",
     "summary": "Oahu’s historic big wave spot, home to legendary surf contests and massive winter swells. The bay is beautiful and steeped in Hawaiian surf history.",
     "swell_hourly": [3.0, 3.2, 3.5, 3.3, 3.1, 2.9, 2.7],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -249,7 +249,7 @@
   {
     "name": "Cloudbreak",
     "location": "Tavarua, Fiji",
-    "img": "assets/Icons/fiji.png",
+    "img": "assets/icons/fiji.png",
     "summary": "Fiji’s Cloudbreak is a powerful reef pass, delivering long, barreling lefts over shallow coral. The wave is world-famous and a dream destination for advanced surfers.",
     "swell_hourly": [2.2, 2.4, 2.6, 2.5, 2.3, 2.1, 1.9],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
@@ -268,7 +268,7 @@
   {
     "name": "Praia da Joaquina",
     "location": "Florianópolis, Brazil",
-    "img": "assets/Icons/brazil.png",
+    "img": "assets/icons/brazil.png",
     "summary": "A legendary Brazilian surf beach famous for its powerful waves, vibrant local scene, and beautiful sand dunes. Popular with both locals and international surfers, it's a great spot for intermediates and up.",
     "swell_hourly": [1.0, 1.2, 1.3, 1.4, 1.1, 0.9, 0.8],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
