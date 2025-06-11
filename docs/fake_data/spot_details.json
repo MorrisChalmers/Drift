@@ -2,7 +2,7 @@
   {
     "name": "Bondi Beach",
     "location": "Sydney, Australia",
-    "img": "assets/icons/australia.png",
+    "img": "/assets/icons/australia.png",
     "summary": "Sydney’s iconic surf beach, famous for its consistent waves, vibrant atmosphere, and golden sands. Great for all levels and always buzzing with energy.",
     "swell_hourly": [1.1, 1.3, 1.2, 1.4, 1.2, 1.0, 0.9],
     "swell_labels": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
