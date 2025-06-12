@@ -1,6 +1,6 @@
 # Drift - Surf Intelligence Platform
 
-![Drift Logo](assets/icons/logo.png)
+![Drift Logo](icon.png)
 
 ## Overview
 Drift is a mobile-first web application that delivers precise, real-time, and predictive surf intelligence for active surfers aged 16-45. Designed for both casual and professional users, Drift combines live data with forecasting technology to help users plan their surf sessions with confidence.
@@ -14,9 +14,9 @@ Drift is a mobile-first web application that delivers precise, real-time, and pr
 - **Mobile Optimized**: Responsive design that works on all devices
 
 ## Screenshots
-![Homepage](assets/screenshots/homepage.png)
-![Surf Map](assets/screenshots/map.png)
-![Spot Details](assets/screenshots/spot_details.png)
+![Homepage](homepage.png)
+![Surf Map](surf-map.png)
+![Spot Details](spot-details.png)
 
 ## Technical Stack
 - HTML5, CSS3, JavaScript (ES6+)
