@@ -1,9 +1,10 @@
 # Drift
 
-DRIFT is conceived as a mobile–first web application that furnishes precise, real–time, and predictive surf intelligence to active surfers aged 16–45 who reside in, or frequently visit, coastal regions. 
+## Overview
+Drift is a mobile–first web application that delivers precise, real–time, and predictive surf intelligence for active surfers aged 16–45. Designed for both casual and professional users, Drift combines live data with forecasting technology to help users plan their surf sessions with confidence.
 
 
-## Usage
+## How to Use
 1. Clone the repository:
    ```bash
    git clone <repository-url>
@@ -17,16 +18,15 @@ DRIFT is conceived as a mobile–first web application that furnishes precise, r
    npm start
    ```
 
-## Deployment
-### Deployment Steps:
-1. Ensure all changes are committed to the repository.
+## Deployment Guidelines
+1. Commit all changes to your repository.
 2. Build the application for production:
    ```bash
    npm run build
    ```
-3. Deploy to a server or an Azure platform:
-   - If using Azure, be sure to follow the [Azure Best Practices](https://docs.microsoft.com/azure/) or use the `azure_development-get_best_practices` tool.
-4. Configure environment variables as needed.
+3. Deploy to your environment or an Azure platform:
+   - For Azure deployments, refer to [Azure Best Practices](https://docs.microsoft.com/azure/) or use the azure_development-get_best_practices tool.
+4. Set up necessary environment variables as required.
 
-## Documentation and Support
-For more information, refer to the full documentation or contact the development team.
+## Additional Information
+For comprehensive documentation, troubleshooting tips, and support, please refer to the project documentation or contact the development team.
